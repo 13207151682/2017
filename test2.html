@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<style type="text/css">
+	
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.firstArticle,
+	.secondArticle,
+	.photo,
+	.LastArticle,
+	aside{
+		width: 1260px;
+		background: #FFFFFF;
+		margin: 22px;
+		padding: 20px;
+		box-shadow: 2px 2px 1px 1px #cccccc;
+	}
+
+	body{
+		background: gray;
+	}
+
+	header{
+		height: 60px;
+		background: #000000;
+	}
+
+	header .logo img{
+		margin-left: 20px;
+		margin-right: 10px;
+		height: 30px;
+		width: 120px;
+	}
+
+	.logo{
+		float: left;
+	}
+
+	.nav{
+		float: right;
+		font-size: 12px;
+		line-height: 60px;
+	}
+
+	.nav li{
+		float: left;
+		margin-left: 12px;
+		margin-right: 20px;
+	}
+
+	.nav li a{
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	.secondArticle_Nav li{
+		list-style: none;
+		margin-bottom: 4px;
+	}
+
+	.lmgBox{
+		border: 1px solid #cccccc;
+		width: 130px;
+		height: 130px;
+		padding: 6px;
+		text-align: center;
+		font-size: 12px;
+		margin-left: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.lmgBox p{
+		margin-bottom: 5px;
+	}
+
+	.lmgBox img{
+		width: 120px;
+		height: 106px;
+	}
+
+	.paihangbang{
+		font-weight: bold;
+		margin-left: 50px;
+	}
+
+	table,th,td{
+		border: 1px solid #cccccc
+		border-collapse:collapse;
+		font-size: 14px;
+	}
+
+	.LastArtcile table{
+		width: 100%
+	}
+
+	.LastArtcile th{
+		background-color: #000000;
+		color: #FFFFFF;
+	}
+
+	tr:last-child{
+		background-color: darkgray;
+	}
+
+	aside h2{
+		border-left: 6px solid #A9A9A9;
+		padding-left:10px;
+		margin-bottom: 20px;
+	}
+
+	form{
+		display: block;
+		font-size: 14px;
+	}
+
+	.Error {
+		color: #A9A9A9;
+		margin-left: 320px;
+		margin-top: -10px;
+	}
+
+	.Emil{
+		margin-left: 200px;
+	}
+
+	.passWord{
+		margin-left: 240px;
+
+	}
+
+	.passWordAgain{
+		margin-left: 212px;
+	}
+	
+	.Sex{
+		margin-left: 280px;
+		margin-bottom: 10px;
+	}
+
+	.City{
+		margin-left: 280px;
+		margin-bottom: 10px;
+	}
+
+	.Like{
+		margin-left: 280px;
+		margin-bottom: 10px;
+	}
+
+	.Idea{
+		margin-left: 250px;
+		margin-bottom: 10px;
+	}
+
+	#Sub{
+		width: 100%;
+		height: 40px;
+		background-color: blue;
+		border:none;
+		border-radius: 10px;
+		color: #FFFFFF;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+</style>
+<body>
+	<header>
+		<h1 class="logo">
+			<img src="logo.jpg">
+		</h1>
+		<ul class="nav">
+			<li><a href="#">导航链接一</a></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><a href="#">导航链接三</a></li>
+			<li><a href="#">导航链接四</a></li>
+		</ul>
+	</header>
+	<article class="firstArticle">
+		<h2>文章的一级标题</h2>
+		<h3>文章的二级标题</h3>
+		<h4>文章作者 文章发表时间</h4>
+		<p class="firstArticle_Article">
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+			<br>
+			这是一个很长很长的段落，这是一个很行很长的段落，
+			<a href="//www.baidu.com">链接到百度</a>
+			"这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，"
+			<b>粗体字</b>
+			"，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，"
+		</p>
+		<br>
+		<img src="picture.png" alt="图片">
+		<br>
+		<p class="firstArticle_Article">
+			"这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了"
+			<br>
+			"这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，"
+			<a href="//www.baidu.com" target="_block">链接到百度，新窗口</a>
+			<b>粗体字</b>
+			"，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，"
+		</p>
+	</article>
+	<article class="secondArticle">
+		<article class="secondArtcle">
+			<h2>另一篇文章的一级标题</h2>
+			<br>
+			<h3>二级标题</h3>
+			<br>
+			<h4>文章作者，发表时间</h4>
+			<br>
+			<img src="picture.png" alt="图片">
+			<br>
+			<br>
+			<ul class="secondArtcle_Nav">
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+				<li>列表项目四</li>
+			</ul>
+		</article>
+	</article>
+	<article class="photo">
+		<h2>图片</h2>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+		<div class="lmgBox">
+			<p>好看的图片</p>
+			<img src="picture.png" alt="tupian">
+		</div>
+	</article>
+	<article class="LastArticle">
+		<article class="LastArtcile">
+			<h2>最后一篇文章的一级标题</h2>
+			<br>
+			<h3>文章二级标题</h3>
+			<br>
+			<h4>文章作者 文章发表时间</h4>
+			<br>
+			<ol class="paihangbang">
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+				<li>排名4</li>
+			</ol>
+			<br>
+			<p>下面是一个表格</p>
+			<table>
+				<tbody><tr>
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
+				</tr>
+				<tr>
+					<td>内容单元格</td>
+					<td>内容单元格</td>
+					<td>
+						<a href="#">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>内容单元格</td>
+					<td>内容单元格</td>
+					<td>
+						<a href="#">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>内容单元格</td>
+					<td>内容单元格</td>
+					<td>
+						<a href="#">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>内容单元格</td>
+					<td>内容单元格</td>
+					<td>
+						<a href="#">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</tbody></table>
+		</article>
+	</article>
+	<aside>
+		<h2>这是侧栏的标题</h2>
+		<form action method="post">
+			<br>
+			<p class="Emil">
+				<label for="mail">请输入邮箱地址：</label>
+				<input type="text" name id="mail" value="这是一个文本输入框">
+			</p>
+			<br>
+			<p class="Error">邮件地址按要求填写</p>
+			<br>
+			<P class="passWord">
+				<label for="mima">请输入密码：</label>
+				<input type="password" name="mima" id="mima" value="这是一个文本输入框">				
+			</P>
+			<p class="passWordAgain">
+				<label for="mimaagain">请重复输入密码：</label>
+				<input type="password" name="mima" id="mimaagain" value="这是一个文本输入框">		
+			</p>
+			<br>
+			<p class="Error">密码请为6-16位英文数字</p>
+			<br>
+			<p class="Sex">
+				性别:
+				<input type="radio" name="sex" id="man" value="man">
+				<label for="man">男</label>
+				<input type="radio" name="sex" id="woman" value="woman">
+				<label for="woman">女</label>
+				<p class="City">
+					城市：
+					<select>
+						<option>北京</option>
+						<option>上海</option>
+						<option>青岛</option>
+					</select>
+				</p>
+				<p class="Like">
+					爱好：
+					<input type="checkbox" name="like" id="run" value="run">
+					<label for="run">运动</label>
+					<input type="checkbox" name="like" id="art" value="art">
+					<label for="art">艺术</label>
+					<input type="checkbox" name="like" id="eat" value="eat">
+					<label for="eat">美食</label>
+				</p>
+				<p class="Idea">
+					个人描述：
+					<textarea rows="6" cols="50">多行输入框，个人描述</textarea>
+				</p>
+			</p>
+			<input type="submit" id="Sub" value="确认提交">
+		</form>
+	</aside>	
+	<footer>版权所有&copy</footer>
+</body>
+</html>

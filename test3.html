@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>三栏式布局</title>
+	<meta charset="utf-8">
+	<style>
+	*{
+		margin: 0;
+		padding:0;
+	}
+
+	.box{
+		min-width: 500px;
+		margin: 20px;
+		padding: 20px;
+		background: #eee;
+		border: 1px solid #999;
+		overflow: auto;
+	}
+
+	.left{
+		float: left;
+		width: 160px;
+		height: 80px;
+		background-color: #FFFFFF;
+		border: 1px solid #999;
+		padding: 20px;
+
+	}
+	
+	.logo {
+		width: 80px;
+		height: 80px;
+		border: 1px solid #999;
+	}
+
+	.logo {
+		float: left;
+
+	}
+
+	p{
+		float: right;
+	}
+
+	.right{
+		padding: 20px;
+		float: right;
+		width: 80px;
+		background-color: #FFFFFF;
+		border: 1px solid #999;
+	
+	}
+
+	.logotu{
+		width: 80px;
+		height: 80px;
+		border: 1px solid #999;
+		margin-bottom: 20px;
+
+	}
+
+	.lastlogotu{
+		width: 80px;
+		height: 80px;
+		border: 1px solid #999;
+	}
+
+	.center{
+		padding: 20px;
+		margin-left: 220px;
+		margin-right: 140px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+	}
+		/*绝对定位*/
+	.bo{
+		position: relative;
+		min-width: 500px;
+		margin: 20px;
+		padding: 20px;
+		background: #eee;
+		border: 1px solid #999;
+		overflow: auto;
+	}
+
+	.lef{
+		position: absolute;
+		height: 80px;
+		width: 160px;
+		top: 20px;
+		left: 20px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+		padding: 20px;
+	}
+
+	.cente{
+		margin-left: 220px;
+		margin-right: 140px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+		padding: 20px;
+	}
+
+	.righ{
+		position: absolute;
+		width: 80px;
+		top: 20px;
+		right: 20px;
+		padding: 20px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+
+	}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="left">
+			<div class="logo">团队logo80*80</div>
+			<p>团队名称</p>
+		</div>
+		<div class="right">
+			<div class="logotu">团队logo80*80</div>
+			<div class="logotu">团队logo80*80</div>
+			<div class="logotu">团队logo80*80</div>
+			<div class="lastlogotu">团队logo80*80</div>
+		</div>
+		<div class="center">
+		有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，
+		</div>
+	</div>
+	<div class="bo">
+			<div class="lef">
+				<div class="logo">
+					团队logo80*80
+				</div>
+				<p>团队名称</p>
+			</div>
+			<div class="cente">
+				有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，
+			</div>
+			<div class="righ">
+				<div class="logotu">
+					个人logo80*80
+				</div>
+				<div class="logotu">
+					个人logo80*80
+				</div>
+				<div class="logotu">
+					个人logo80*80
+				</div>
+				<div class="lastlogotu">
+					个人logo80*80
+				</div>
+			</div>
+			
+		</div>
+</body>
+</html>
